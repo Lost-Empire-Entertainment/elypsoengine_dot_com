@@ -58,7 +58,7 @@ button:hover {
 /* the copyright message at the bottom right */
 .bottom-overlay-copyright {
     position: absolute; /* Position relative to the overlay */
-    bottom: 0px; /* Align the text at the center of the overlay */
+    bottom: 50px; /* Align the text at the center of the overlay */
     right: 50px; /* Position the text 50px from the right side */
     color: white;
 }
@@ -66,7 +66,7 @@ button:hover {
 /* the discord icon at the bottom left */
 .bottom-overlay-icon-discord {
     position: absolute; /* Position relative to the overlay */
-    bottom: 0px; /* Align the image at the center of the overlay */
+    bottom: 50px; /* Align the image at the center of the overlay */
     left: 50px; /* Position the image 50px from the left side */
     height: 40px;
 }
