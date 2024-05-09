@@ -14,7 +14,7 @@ body {
     left: 0;
     width: 100%;
     height: 300px;
-    background-color: rgba(90, 90, 90, 0.6);
+    background-color: rgb(37 ,40 ,43);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,19 +51,20 @@ button:hover {
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: rgba(90, 90, 90, 0.6);
+    background-color: rgb(37, 40, 43);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 5;
 }
 
-/* the copyright message at the bottom right */
+/* the copyright message at the bottom right 
 .bottom-overlay-copyright {
     text-align: right;
     margin-right: 50px;
     color: white;
 }
+*/
 
 /* the discord icon at the bottom left */
 .bottom-overlay-icon-discord {
