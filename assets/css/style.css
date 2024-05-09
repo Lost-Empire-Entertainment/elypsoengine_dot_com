@@ -67,8 +67,8 @@ button:hover {
 
 /* the copyright message at the bottom right */
 .bottom-overlay-copyright {
-    text-align: right center;
-    margin-right: 10px;
+    text-align: right;
+    margin-right: 50px;
     color: white;
 }
 
@@ -78,6 +78,6 @@ button:hover {
     background-size: 75px 75px;
     background-repeat: no-repeat;
     background-position: left center;
-    padding-left: 10px;
+    padding-left: 50px;
     z-index: 10;
 }
