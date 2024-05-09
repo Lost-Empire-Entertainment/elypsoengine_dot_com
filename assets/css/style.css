@@ -4,16 +4,6 @@ body {
     padding: 0;
 }
 
-/* the background behind all other elements */
-.background {
-    background-image: url('../../images/background.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    position: fixed;
-    z-index: -1;
-}
-
 /* the overlay at the top of the website */
 .overlay {
     position: fixed;
@@ -65,15 +55,14 @@ button:hover {
     z-index: 5;
 }
 
-/* the copyright message at the bottom right 
+/* the copyright message at the bottom right */
 .bottom-overlay-copyright {
     text-align: right;
     margin-right: 50px;
     color: white;
 }
-*/
 
-/* the discord icon at the bottom left 
+/* the discord icon at the bottom left */
 .bottom-overlay-icon-discord {
     background-image: url('../../images/discord-mark-blue.png');
     background-size: 75px 75px;
@@ -82,4 +71,13 @@ button:hover {
     padding-left: 50px;
     z-index: 10;
 }
-*/
+
+/* the background behind all other elements */
+.background {
+    background-image: url('../../images/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
