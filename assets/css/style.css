@@ -1,23 +1,40 @@
+/* the initial setup */
 body {
     margin: 0;
     padding: 0;
 }
 
-.container {
+/* the background behind all other elements */
+.background {
     background-image: url('../../images/background.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+/* the overlay at the top of the website */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 255, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
-.content {
+/* displayed content extra details */
+.overlay-content {
     text-align: center;
     color: white;
 }
 
+/* the download button */
 button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -29,6 +46,37 @@ button {
     transition: background-color 0.3s ease;
 }
 
+/* when you hover over the download button */
 button:hover {
     background-color: #0056b3;
+}
+
+/* the bottom overlay at the bottom of the website */
+.bottom-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* the copyright message at the bottom right */
+.bottom-overlay-copyright {
+    text-align: right;
+    margin-right: 10px;
+    color: white;
+}
+
+/* the discord icon at the bottom left */
+.bottom-overlay-icon-discord {
+    background-image: url('../../images/discord-mark-blue.png');
+    background-size: 75px 75px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 10px;
 }
