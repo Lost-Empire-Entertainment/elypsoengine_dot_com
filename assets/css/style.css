@@ -65,14 +65,15 @@ button:hover {
     z-index: 5;
 }
 
-/* the copyright message at the bottom right */
+/* the copyright message at the bottom right 
 .bottom-overlay-copyright {
     text-align: right;
     margin-right: 50px;
     color: white;
 }
+*/
 
-/* the discord icon at the bottom left */
+/* the discord icon at the bottom left 
 .bottom-overlay-icon-discord {
     background-image: url('../../images/discord-mark-blue.png');
     background-size: 75px 75px;
@@ -81,3 +82,4 @@ button:hover {
     padding-left: 50px;
     z-index: 10;
 }
+*/
