@@ -14,7 +14,7 @@ body {
     left: 0;
     width: 100%;
     height: 300px;
-    background-color: rgba(0, 0, 125, 0.1);
+    background-color: rgba(90, 90, 90, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,14 +24,14 @@ body {
 /* displayed content extra details */
 .overlay-content {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 /* the download button */
 button {
     padding: 10px 20px;
     background-color: #007bff;
-    color: black;
+    color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -51,7 +51,7 @@ button:hover {
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: rgba(0, 0, 125, 0.1);
+    background-color: rgba(90, 90, 90, 0.6);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +62,7 @@ button:hover {
 .bottom-overlay-copyright {
     text-align: right;
     margin-right: 50px;
-    color: black;
+    color: white;
 }
 
 /* the discord icon at the bottom left */
