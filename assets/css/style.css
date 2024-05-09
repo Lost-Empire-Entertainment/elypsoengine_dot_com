@@ -58,7 +58,7 @@ button:hover {
 /* the copyright message at the bottom right */
 .bottom-overlay-copyright {
     position: absolute; /* Position relative to the overlay */
-    top: 50%; /* Move the text down by 50% of the overlay's height */
+    bottom: 50%; /* Move the text up by 50% of the overlay's height */
     right: 50px; /* Position the text 50px from the right side */
     transform: translateY(-50%); /* Center the text vertically */
     color: white;
@@ -67,7 +67,7 @@ button:hover {
 /* the discord icon at the bottom left */
 .bottom-overlay-icon-discord {
     position: absolute; /* Position relative to the overlay */
-    top: 50%; /* Move the image down by 50% of the overlay's height */
+    bottom: 50%; /* Move the image up by 50% of the overlay's height */
     left: 50px; /* Position the image 50px from the left side */
     transform: translateY(-50%); /* Center the text vertically */
     height: 40px;
