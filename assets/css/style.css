@@ -67,7 +67,7 @@ button:hover {
 
 /* the discord icon at the bottom left */
 .bottom-overlay-icon-discord {
-    background-image: url('../../images/discord-mark-blue.png');
+    background-image: url('../../images/discord-mark-white.png');
     background-size: 75px 75px;
     background-repeat: no-repeat;
     background-position: left center;
