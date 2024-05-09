@@ -53,13 +53,24 @@ button:hover {
     height: 50px;
     background-color: rgb(37, 40, 43);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 5;
 }
 
 /* the copyright message at the bottom right */
 .bottom-overlay-copyright {
-    text-align: center;
+    text-align: right;
+    margin-right: 50px;
     color: white;
+}
+
+/* the discord icon at the bottom left */
+.bottom-overlay-icon-discord {
+    background-image: url('../../images/discord-icon.png');
+    background-size: 75px 75px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 50px;
+    z-index: 10;
 }
