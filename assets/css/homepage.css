@@ -41,7 +41,6 @@ button {
 
 /* when you hover over the download button */
 button:hover {
-    position: absolute;
     background-color: #0056b3;
 }
 
