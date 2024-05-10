@@ -9,3 +9,11 @@ document.getElementById("btn_DownloadEngine").addEventListener("click", function
 document.getElementById("btn_Download0-0-12").addEventListener("click", function () {
     window.location.href = link_0_0_12;
 });
+
+window.onload = function () {
+    // Check if the current page is older_versions.html
+    if (window.location.pathname === 'pages/older_versions.html') {
+        // Redirect to the desired path without showing the filename
+        window.history.replaceState({}, document.title, 'older_versions');
+    }
+};
