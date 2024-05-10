@@ -64,15 +64,6 @@ button:hover {
     color: white;
 }
 
-/* the website under development message at the bottom right */
-.bottom-overlay-website-under-construction {
-    position: absolute; /* Position relative to the overlay */
-    bottom: 0; /* Align the text at the bottom of the overlay */
-    left: 50%; /* Position the text 50% from the left side */
-    transform: translateX(-50%); /* Center the text horizontally */
-    color: white
-}
-
 /* the discord icon at the bottom left */
 .buttom-overlay-icon-discord {
     position: absolute; /* Position relative to the overlay */
