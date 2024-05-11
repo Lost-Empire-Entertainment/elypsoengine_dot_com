@@ -1,88 +1,13 @@
-/* the initial setup */
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('../../images/background.png');
-    background-size: cover;
-    background-position: center;
-}
-
-/* the overlay at the top of the website */
-.overlay {
+/* the main overlay used at the home page */
+.hp-main-overlay {
     position: fixed;
-    top: 0;
+    top: 50px;
     left: 0;
     width: 100%;
     height: 400px;
-    background-color: rgb(37 ,40 ,43);
+    background-color: rgb(37, 40, 43);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 5;
-}
-
-/* displayed content extra details */
-.overlay-content {
-    text-align: center;
-    color: white;
-}
-
-/* the download button */
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-/* when you hover over the download button */
-button:hover {
-    background-color: #0056b3;
-}
-
-/* the bottom overlay at the bottom of the website */
-.bottom-overlay {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(37, 40, 43);
-    z-index: 5;
-}
-
-/* the copyright message at the bottom right */
-.bottom-overlay-copyright {
-    position: absolute; /* Position relative to the overlay */
-    top: 0px; /* Align the text at the bottom of the overlay */
-    right: 10px; /* Position the text 10px from the right side */
-    color: white;
-}
-
-/* the discord icon at the bottom left */
-.buttom-overlay-icon-discord {
-    position: absolute; /* Position relative to the overlay */
-    top: 10px; /* Align the image at the bottom of the overlay */
-    left: 10px; /* Position the image 10px from the left side */
-    height: 30px;
-}
-
-/* the youtube icon at the bottom left */
-.buttom-overlay-icon-youtube {
-    position: absolute; /* Position relative to the overlay */
-    top: 10px; /* Align the image at the bottom of the overlay */
-    left: 50px; /* Position the image 50px from the left side */
-    height: 30px;
-}
-
-/* the github icon at the bottom left */
-.buttom-overlay-icon-github {
-    position: absolute; /* Position relative to the overlay */
-    top: 10px; /* Align the image at the bottom of the overlay */
-    left: 90px; /* Position the image 90px from the left side */
-    height: 30px;
 }
