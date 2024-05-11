@@ -4,7 +4,7 @@ Version 1.0
 
 1. Definitions
 
-- "Source" refers to the source code distributed by Lost Empire Entertainment.
+- "Source" refers to the source code and media distributed by Lost Empire Entertainment.
 - "You" refers to the individual or entity using the Website source code under the terms of this license.
 - "Lost Empire Entertainment" refers to the entity distributing the source code under this license.
 - "Jurisdiction" refers to the legal jurisdiction in which Lost Empire Entertainment operates.
