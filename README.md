@@ -8,8 +8,6 @@ This is the source code repository for the [Elypso Engine website](https://elyps
 
 [Support development on paypal](https://www.paypal.com/donate/?hosted_button_id=QWG8SAYX5TTP6)
 
-[Join the discord community server](https://discord.gg/wPYCSSenX2)
-
 ---
 
 ### Team
