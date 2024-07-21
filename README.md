@@ -8,6 +8,10 @@ This is the source code repository for the [Elypso Engine website](https://elyps
 
 [Support development on paypal](https://www.paypal.com/donate/?hosted_button_id=QWG8SAYX5TTP6)
 
+[Official discord server](https://discord.gg/FqJgy2SvDs)
+
+[Official youtube channel](https://youtube.com/greenlaser)
+
 ---
 
 ### Team
