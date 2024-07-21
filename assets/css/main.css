@@ -129,6 +129,17 @@ button:hover {
 }
 
 /* 
+    the paypal icon at the bottom left 
+    that is reused across all pages
+*/
+.-button-overlay-icon-paypal {
+    position: absolute; /* Position relative to the overlay */
+    top: 10px; /* Perfectly center the image vertically */
+    left: 130px; /* Position the image 90px from the left side */
+    height: 30px;
+}
+
+/* 
     the website source text link 
     that is reused across all pages
 */
