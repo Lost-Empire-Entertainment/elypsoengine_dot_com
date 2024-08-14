@@ -9,7 +9,7 @@ body {
 
 /* the top overlay reused across all pages */
 .-top-overlay {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -28,7 +28,7 @@ body {
 .-top-overlay-btn2 {
     position: absolute;
     top: 5px;
-    left: 150px;
+    left: 100px;
     padding: 0 25px;
 }
 
@@ -74,7 +74,7 @@ button:hover {
     that is reused across all pages
 */
 .-bottom-overlay {
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;

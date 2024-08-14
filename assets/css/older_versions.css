@@ -1,6 +1,6 @@
 /* overlay for the background of the version downloads */
 .ov-main-overlay {
-    position: relative;
+    position: fixed;
     top: 275px;
     left: 20%;
     width: 60%;
