@@ -6,8 +6,8 @@ var link_Page_Home = "https://elypsoengine.com";
 var link_Page_Docs = "https://elypsoengine.com/pages/docs.html";
 
 // Links to download engine versions
-var link_LatestDownload = "https://github.com/Lost-Empire-Entertainment/Elypso-engine/releases/download/v0.0.13-prototype/Elypso.engine.0.0.13.7z";
-var link_0_0_12 = "https://github.com/Lost-Empire-Entertainment/Elypso-engine/releases/download/v0.0.12-prototype/Elypso.engine.0.0.12.7z";
+var link_LatestDownload = "https://github.com/Lost-Empire-Entertainment/Elypso-engine/releases/download/v0.0.14-prototype/Elypso.engine.0.0.14.7z";
+var link_0_0_13 = "https://github.com/Lost-Empire-Entertainment/Elypso-engine/releases/download/v0.0.13-prototype/Elypso.engine.0.0.13.7z";
 
 window.onload = function () {
     var btnHome = document.getElementById("btn_Home");
@@ -26,7 +26,7 @@ window.onload = function () {
     }
 
     var btnDownloadEngine = document.getElementById("btn_DownloadEngine");
-    var btnDownload012 = document.getElementById("btn_Download0-0-12");
+    var btnDownload013 = document.getElementById("btn_Download0-0-13");
 
     if (btnDownloadEngine) {
         btnDownloadEngine.addEventListener("click", function () {
@@ -34,9 +34,9 @@ window.onload = function () {
         });
     }
 
-    if (btnDownload012) {
-        btnDownload012.addEventListener("click", function () {
-            window.location.href = link_0_0_12;
+    if (btnDownload013) {
+        btnDownload013.addEventListener("click", function () {
+            window.location.href = link_0_0_13;
         });
     }
 };
