@@ -135,7 +135,18 @@ button:hover {
 .-button-overlay-icon-paypal {
     position: absolute; /* Position relative to the overlay */
     top: 10px; /* Perfectly center the image vertically */
-    left: 130px; /* Position the image 90px from the left side */
+    left: 130px; /* Position the image 130px from the left side */
+    height: 30px;
+}
+
+/* 
+    the email icon at the bottom left 
+    that is reused across all pages
+*/
+.-button-overlay-icon-email {
+    position: absolute; /* Position relative to the overlay */
+    top: 10px; /* Perfectly center the image vertically */
+    left: 170px; /* Position the image 170px from the left side */
     height: 30px;
 }
 
